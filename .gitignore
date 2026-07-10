@@ -1,0 +1,45 @@
+# ==========================
+# Node.js
+# ==========================
+ai-form-assistant-node/node_modules/
+ai-form-assistant-node/dist/
+
+# ==========================
+# Python
+# ==========================
+ai-form-assistant-fastapi/venv/
+ai-form-assistant-fastapi/__pycache__/
+ai-form-assistant-fastapi/.pytest_cache/
+*.pyc
+
+# ==========================
+# Environment Files
+# ==========================
+**/.env
+.env.*
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Coverage
+# ==========================
+coverage/
+htmlcov/
+
+FormAssistance.code-workspace
