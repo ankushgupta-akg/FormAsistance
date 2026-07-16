@@ -10,7 +10,11 @@ const config = {
 
     JWT_SECRET: process.env.JWT_SECRET,
 
-    DATABASE_URL: process.env.DATABASE_URL,
+    DB_USER: process.env.DB_USER,
+    DB_PASSWORD: process.env.DB_PASSWORD,
+    DB_HOST: process.env.DB_HOST,
+    DB_PORT: Number(process.env.DB_PORT) || 5432,
+    DB_NAME: process.env.DB_NAME,
 
     OPENAI_API_KEY: process.env.OPENAI_API_KEY
 };
